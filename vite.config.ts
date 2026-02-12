@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // 👇 IMPORTANT: Dynamic base for GitHub Pages
-  base: mode === "production" ? "/gkindus/" : "/",
+  base: "/",
 
   server: {
     host: "::",
