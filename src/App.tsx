@@ -22,7 +22,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/gk-indus">
+      <BrowserRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
