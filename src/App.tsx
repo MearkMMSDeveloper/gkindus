@@ -22,7 +22,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.PROD ? "/gkindus" : "/"}>
+      <BrowserRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<Index />} />
